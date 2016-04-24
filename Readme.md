@@ -1,9 +1,15 @@
 
 # Boost filesystem and iostreams standalone
 
-Boost filesystem and iostreams bundled as embeddable CMake module
+Boost filesystem and iostreams bundled and other core boost libraries as embeddable CMake module
 
-Current version: **Boost 1.60**
+Current boost version: **Boost 1.60**
+
+Contains:
+
+* boost::filesystem
+* boost::iostreams
+* boost::
 
 *****
 
