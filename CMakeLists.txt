@@ -97,3 +97,12 @@ target_compile_features(boost-minimal-dist
     cxx_lambdas
     cxx_nullptr
     cxx_override)
+
+target_compile_definitions(boost-minimal-dist
+  PUBLIC
+    -DBOOST_ALL_NO_LIB)
+
+if (CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
+  add_executable(test-linkage link-test/main.cpp)
+  target_link_libraries(test-linkage boost-minimal-dist)
+endif()
