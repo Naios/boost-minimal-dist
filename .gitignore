@@ -1,0 +1,8 @@
+Jamroot
+Jamfile.v2
+
+doc/
+test/
+*.mak
+*.sh
+*.bat
