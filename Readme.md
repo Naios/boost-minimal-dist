@@ -3,7 +3,7 @@
 
 Boost filesystem and iostreams and other core boost libraries bundled as embeddable CMake module.
 
-Current boost version: **Boost 1.60**
+Current boost version: **Boost 1.61**
 
 Contains:
 
@@ -13,6 +13,7 @@ Contains:
 * boost::fusion
 * boost::algorithm
 * boost::range
+* boost::optional
 
 ... and it's dependencies.
 
@@ -20,7 +21,7 @@ Contains:
 
 Extracted with the bcp tool:
 
-`bcp filesystem iostreams move fusion algorithm range LOCATION`
+`bcp filesystem iostreams move optional fusion algorithm range LOCATION`
 *****
 
 Easiest way to embed the minimal distribution in your project as git submodule using CMake:
