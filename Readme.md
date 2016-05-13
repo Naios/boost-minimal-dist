@@ -14,6 +14,7 @@ Contains:
 * boost::algorithm
 * boost::range
 * boost::optional
+* boost::date_time
 
 ... and it's dependencies.
 
@@ -21,7 +22,7 @@ Contains:
 
 Extracted with the bcp tool:
 
-`bcp filesystem iostreams move optional fusion algorithm range LOCATION`
+`bcp filesystem iostreams move optional fusion algorithm date_time range LOCATION`
 *****
 
 Easiest way to embed the minimal distribution in your project as git submodule using CMake:
